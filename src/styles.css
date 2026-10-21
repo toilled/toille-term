@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Orbitron Fallback";
+  font-display: swap;
+  src:
+    local("Arial"), local("Helvetica"), local("Liberation Sans"),
+    local("DejaVu Sans"), local("Noto Sans");
+  font-weight: 400 900;
+  size-adjust: 128.98%;
+  ascent-override: 78.38%;
+  descent-override: 18.84%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Share Tech Mono Fallback";
+  font-display: swap;
+  src:
+    local("Courier New"), local("Liberation Mono"), local("DejaVu Sans Mono");
+  size-adjust: 90.65%;
+  ascent-override: 97.63%;
+  descent-override: 26.7%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("/fonts/orbitron-var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Share Tech Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/share-tech-mono-400.woff2") format("woff2");
+}
+
+:root {
+  --bg: #07090e;
+  --bg-2: #0d111a;
+  --bg-3: #131926;
+  --cyan: #00f0b5;
+  --cyan-dim: #00b88c;
+  --pink: #f43f5e;
+  --purple: #b76bf8;
+  --yellow: #eab308;
+  --green: #34d399;
+  --blue: #38bdf8;
+  --text: #f1f5f9;
+  --text-dim: #94a3b8;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-soft: rgba(255, 255, 255, 0.06);
+
+  --font-mono: "Share Tech Mono", "Share Tech Mono Fallback", monospace;
+  --font-display: "Orbitron", "Orbitron Fallback", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.display {
+  font-family: var(--font-display);
+}
+
+.term-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at 50% 10%,
+    rgba(0, 240, 181, 0.04),
+    transparent 60%
+  );
+}
+
+.term-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.5rem;
+  border-bottom: 1px solid var(--line);
+  background: rgba(13, 17, 26, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.term-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.term-nav-back {
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s;
+}
+
+.term-nav-back:hover {
+  opacity: 0.8;
+}
+
+.term-nav-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.term-tag {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+.term-version {
+  color: var(--pink);
+  font-weight: 700;
+}
+
+.term-status-badge {
+  font-size: 0.72rem;
+  color: var(--green);
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+}
+
+.term-nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.term-btn-control {
+  background: rgba(13, 17, 26, 0.9);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.term-btn-control:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.term-main-stage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.term-container {
+  width: 100%;
+  max-width: 960px;
+  min-height: 580px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.term-container .terminal {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.term-container .terminal .body {
+  flex: 1;
+  min-height: 400px;
+}

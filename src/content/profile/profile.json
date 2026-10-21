@@ -1,0 +1,193 @@
+{
+  "identity": {
+    "name": "Elliot Dickerson",
+    "handle": "toilled",
+    "role": "Senior Web Developer @ RM Assessments",
+    "jobTitle": "Senior Web Developer",
+    "company": "RM Assessments",
+    "education": "BSc (Hons) Computing",
+    "credential": "BSc (HONS) COMPUTING",
+    "experienceYears": "14+",
+    "location": "Cheltenham, United Kingdom",
+    "engineeringFocus": "PHP · JAVASCRIPT · SQL · WCAG ACCESSIBILITY",
+    "workPreference": "HYBRID / REMOTE",
+    "social": {
+      "github": "https://github.com/toilled",
+      "youtube": "https://www.youtube.com/@toilled"
+    }
+  },
+  "skills": [
+    {
+      "category": "Backend Development",
+      "skills": [
+        {
+          "name": "Laravel",
+          "icon": "/laravel-icon.svg",
+          "link": "https://laravel.com/"
+        },
+        {
+          "name": "MySQL",
+          "icon": "/mysql-icon.svg",
+          "link": "https://www.mysql.com/"
+        },
+        {
+          "name": "Node.js",
+          "icon": "/nodejs-icon.svg",
+          "link": "https://nodejs.org/"
+        },
+        {
+          "name": "PHP",
+          "icon": "/php-icon.svg",
+          "link": "https://www.php.net/"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "🐘",
+          "link": "https://www.postgresql.org/"
+        },
+        { "name": "Redis", "icon": "⚡", "link": "https://redis.io/" },
+        {
+          "name": "Yii",
+          "icon": "/yii-icon.svg",
+          "link": "https://www.yiiframework.com/"
+        }
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "icon": "/javascript-icon.svg",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "React",
+          "icon": "/react-icon.svg",
+          "link": "https://react.dev/"
+        },
+        {
+          "name": "SolidJS",
+          "icon": "/solidjs-icon.svg",
+          "link": "https://www.solidjs.com/"
+        },
+        {
+          "name": "Svelte",
+          "icon": "/svelte-icon.svg",
+          "link": "https://svelte.dev/"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/typescript-icon.svg",
+          "link": "https://www.typescriptlang.org/"
+        },
+        { "name": "Vue", "icon": "💚", "link": "https://vuejs.org/" },
+        {
+          "name": "XML",
+          "icon": "📄",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/XML"
+        }
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "skills": [
+        {
+          "name": "AWS",
+          "icon": "/aws-icon.svg",
+          "link": "https://aws.amazon.com/"
+        },
+        {
+          "name": "Cloudflare",
+          "icon": "/cloudflare-icon.svg",
+          "link": "https://www.cloudflare.com/"
+        },
+        {
+          "name": "Docker",
+          "icon": "/docker-icon.svg",
+          "link": "https://www.docker.com/"
+        },
+        {
+          "name": "Git",
+          "icon": "/git-icon.svg",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Linux",
+          "icon": "/linux-icon.svg",
+          "link": "https://www.kernel.org/"
+        }
+      ]
+    },
+    {
+      "category": "CMS & Methodologies",
+      "skills": [
+        {
+          "name": "Agile & Scrum",
+          "icon": "🔄",
+          "link": "https://www.scrum.org/"
+        },
+        {
+          "name": "Concrete CMS",
+          "icon": "📦",
+          "link": "https://www.concretecms.com/"
+        },
+        { "name": "Joomla", "icon": "🌐", "link": "https://www.joomla.org/" },
+        {
+          "name": "WCAG Standards",
+          "icon": "♿",
+          "link": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+        },
+        { "name": "WordPress", "icon": "📝", "link": "https://wordpress.org/" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "03/2025 – PRESENT",
+      "badge": "CURRENT ROLE",
+      "badgeTone": "cyan",
+      "title": "Senior Web Developer @ RM Assessments",
+      "description": "Delivering bug fixes and core feature solutions for online assessment software, developing an in-exam student IDE, achieving WCAG standards for accessibility, and driving improvements to coding standards and test coverage across legacy code."
+    },
+    {
+      "period": "09/2023 – 12/2024",
+      "badge": "ENTERPRISE",
+      "badgeTone": "pink",
+      "title": "Software Developer @ Synetiq Ltd",
+      "description": "Assisted with migrating legacy platforms from PHP 5 to PHP 8 and migrating workloads between cloud providers. Maintained WordPress instances and engineered regular bug fixes and system updates."
+    },
+    {
+      "period": "01/2023 – 06/2023",
+      "badge": "SAAS",
+      "badgeTone": "purple",
+      "title": "Senior Software Developer @ SoCrowd Technologies",
+      "description": "Maintained legacy PHP systems built with Zend alongside modern code written with Laravel and AngularJS. Developed API integrations for popular social media networks and contributed to architecture modernization strategies."
+    },
+    {
+      "period": "07/2022 – 01/2023",
+      "badge": "AGENCY",
+      "badgeTone": "yellow",
+      "title": "Senior PHP Developer @ Rawnet Digital Agency",
+      "description": "Engineered robust PHP 8 applications using the Laravel framework, authored custom blocks and modular packages for sites powered by Concrete CMS, and authored technical comparisons evaluating Rust and PHP for web development."
+    }
+  ],
+  "education": [
+    {
+      "period": "09/2009 – 07/2015",
+      "badge": "DEGREE",
+      "badgeTone": "purple",
+      "degree": "Computing BSc (Hons)",
+      "institution": "University of the West of England",
+      "description": "Rigorous foundation in computer science, software design principles, relational database modeling, algorithms, and distributed computing architectures."
+    },
+    {
+      "period": "09/2007 – 07/2009",
+      "badge": "DIPLOMA",
+      "badgeTone": "cyan",
+      "degree": "National Diploma in Software Development",
+      "institution": "Gloucestershire College",
+      "description": "Core academic and practical foundation in structured software programming, application design lifecycle, system analysis, and database fundamentals."
+    }
+  ]
+}

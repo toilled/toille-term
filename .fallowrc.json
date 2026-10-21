@@ -1,0 +1,15 @@
+{
+  "ignorePatterns": [],
+  "ignoreDependencies": ["@axe-core/playwright"],
+  "health": {
+    "maxCyclomatic": 5,
+    "maxCognitive": 5,
+    "maxCrap": 30
+  },
+  "rules": {
+    "require-suppression-reason": "error"
+  },
+  "audit": {
+    "healthBaseline": ".fallow-baseline.json"
+  }
+}
